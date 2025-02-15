@@ -26,7 +26,7 @@ function Projects() {
               imgPath={mernweb}
               isBlog={false}
               title="Mern-Web"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, . Have features which allows.health care services, this project made by a group in internship period."
+              description="A full-stack e-commerce web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. Features include user authentication, product management, and a shopping cart. This project showcases best practices for building scalable and maintainable MERN applications. Contributions are welcome!"
               ghLink="https://github.com/swayampandit00/mern_website"
               demoLink="demolink"
             />
@@ -37,7 +37,8 @@ function Projects() {
               imgPath={location}
               isBlog={false}
               title="find location"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="A location finder application designed to help users [explain the purpose, e.g., explore new areas, find businesses near them, plan trips].
+This project aims to provide a reliable and convenient way to find locations for [mention target audience or use case, e.g., travelers, local residents, event organizers]."
               ghLink="https://github.com/swayampandit00/locationtrack"
               demoLink="demolink"
             />
@@ -48,7 +49,8 @@ function Projects() {
               imgPath={wi}
               isBlog={false}
               title="wi-fi password"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Legality and Ethics: Always emphasize that your project is intended for ethical and legal use. Clearly state that it should not be used to access WiFi networks without permission.
+Focus on Functionality: Highlight the specific features of your project that are not related to password retrieval."
               ghLink="https://github.com/swayampandit00/show-wifi-password"
               demoLink="demolink"              
             />
@@ -59,7 +61,9 @@ function Projects() {
               imgPath={navbar}
               isBlog={false}
               title="Navbar"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="This navbar design prioritizes user experience with a clear and organized layout. It features [mention key elements, e.g., site logo, navigation links, search bar, call-to-action button].
+A responsive navbar that adapts seamlessly to different screen sizes, ensuring optimal navigation on desktop and mobile devices.   
+This navigation bar is designed to be both functional and visually appealing, enhancing the overall website aesthetic."
               ghLink="https://github.com/swayampandit00/navbar-website"
               demoLink="demolink"
             />

@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed and Developed by swayam pandit</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SU</h3>
+          <h3>swayam @ {year} pandit</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -62,7 +62,9 @@ function Footer() {
               </a>
             </li>
           </ul>
+          
         </Col>
+        
       </Row>
     </Container>
   );

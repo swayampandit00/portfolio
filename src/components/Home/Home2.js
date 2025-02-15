@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { NavLink } from "react-router-dom";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -105,8 +106,13 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              
             </ul>
+            
           </Col>
+
+          <NavLink to={'/contact'}><button className="cbtn">Click Here To Contact me..</button></NavLink>
+            
         </Row>
       </Container>
     </Container>

@@ -742,3 +742,125 @@ button:focus {
   display: none !important;
 }
 
+/*contact*/
+
+.set {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0;
+}
+
+.cont {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.cbtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #3b49df;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cbtn:hover {
+  background-color: #2a37b8;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .set{
+    
+    margin-top:130px;
+    
+    
+   
+  }
+  .cont {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 20px; /* Smaller font size for headings */
+  }
+
+  label {
+    font-size: 12px; /* Smaller font size for labels */
+  }
+
+  input, textarea {
+    font-size: 12px; /* Smaller font size for inputs */
+  }
+
+  .cbtn {
+    font-size: 14px; /* Smaller font size for buttons */
+  }
+}
+
+@media (max-width: 480px) {
+  .set{
+    padding:0px;
+    margin-top:110px;
+    margin-left:55px;
+    width:200px;
+   
+  }
+  .cont {
+    background-color: #181a27;
+    border-radius: 8px;
+    box-shadow:0 0 10px rgba(100, 100, 50, 10);
+    width: 100%;
+    max-width: 500px;
+  
+    padding: 15px; /* Further reduce padding on very small screens */
+  }
+
+  h1 {
+    font-size: 18px; /* Even smaller font size for headings */
+    color:white;
+  }
+
+  label {
+    font-size: 10px; /* Even smaller font size for labels */
+    color:white;
+  }
+
+  input, textarea {
+    font-size: 10px; /* Even smaller font size for inputs */
+  }
+
+  .cbtn {
+    padding: 12px; /* Adjust button padding */
+    font-size: 12px; /* Adjust button font size */
+  }
+}
